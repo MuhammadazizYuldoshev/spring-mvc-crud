@@ -24,7 +24,8 @@
                     <th scope="col">FirstName</th>
                     <th scope="col">LastName</th>
                     <th scope="col">PhoneNumber</th>
-                    <th scope="col">Action</th>
+                    <th scope="col">DELETE</th>
+                    <th scope="col">UPDATE</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -36,6 +37,8 @@
                     <td class="font-weight-bold"><i class="fa-solid fa-phone"></i> ${user.phonenumber}</td>
                     <td>
                         <a href="/delete/${user.id}"><i class="fa-solid fa-user-xmark text-danger" style="font-size: 25px"></i></a>
+                    </td>
+                    <td>
                         <a href="/update/${user.id}"><i class="fa-solid fa-pen-to-square text-primary" style="font-size: 25px"></i></a>
                     </td>
                 </tr>
